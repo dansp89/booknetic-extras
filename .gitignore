@@ -1,0 +1,69 @@
+# WordPress core
+wp-config.php
+wp-config-*.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+wp-content/debug.log
+
+# Dependencies
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+*.min.js
+*.min.css
+*.map
+!app/Backend/Locations/assets/js/add_new.min.js
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Debug
+debug.log
+wp-content/debug.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local development
+wp-content/db.php
+*.local
+*.local.*
+# commit.json
+
+# Booknetic specific
+wp-content/plugins/booknetic-extras/mu-plugins/booknetic-extras-intercept.php
